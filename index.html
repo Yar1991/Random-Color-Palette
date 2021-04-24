@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./icon.png" type="image/png" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.1.1/chroma.min.js"
+      defer
+    ></script>
+    <script src="app.js" defer></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Random-Colors</title>
+  </head>
+  <body>
+    <!-- color grid section -->
+
+    <section class="colors-grid">
+      <div class="color">
+        <h2 class="color-name">Hex</h2>
+        <div class="control-buttons">
+          <button class="adjust-btn">
+            <i class="icon fas fa-sliders-h"></i>
+          </button>
+          <button class="lock-btn">
+            <i class="icon fas fa-unlock"></i>
+            <!-- <i class="fas fa-unlock"></i> -->
+          </button>
+        </div>
+        <div class="color-settings">
+          <span class="close-btn">x</span>
+          <div class="hue-block settings-block">
+            <label for="hue">Hue</label>
+            <input
+              type="range"
+              name="hue"
+              id="hue"
+              min="0"
+              max="360"
+              step="1"
+            />
+          </div>
+          <div class="bright-block settings-block">
+            <label for="bright">Brightness</label>
+            <input
+              type="range"
+              name="bright"
+              id="bright"
+              min="0"
+              max="1"
+              step="0.01"
+            />
+          </div>
+          <div class="satur-block settings-block">
+            <label for="satur">Saturation</label>
+            <input
+              type="range"
+              name="satur"
+              id="satur"
+              min="0"
+              max="1"
+              step="0.01"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="color">
+        <h2 class="color-name">Hex</h2>
+        <div class="control-buttons">
+          <button class="adjust-btn">
+            <i class="icon fas fa-sliders-h"></i>
+          </button>
+          <button class="lock-btn">
+            <i class="icon fas fa-unlock"></i>
+          </button>
+        </div>
+        <div class="color-settings">
+          <span class="close-btn">x</span>
+          <div class="hue-block settings-block">
+            <label for="hue">Hue</label>
+            <input
+              type="range"
+              name="hue"
+              id="hue"
+              min="0"
+              max="360"
+              step="1"
+            />
+          </div>
+          <div class="bright-block settings-block">
+            <label for="bright">Brightness</label>
+            <input
+              type="range"
+              name="bright"
+              id="bright"
+              min="0"
+              max="1"
+              step="0.01"
+            />
+          </div>
+          <div class="satur-block settings-block">
+            <label for="satur">Saturation</label>
+            <input
+              type="range"
+              name="satur"
+              id="satur"
+              min="0"
+              max="1"
+              step="0.01"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="color">
+        <h2 class="color-name">Hex</h2>
+        <div class="control-buttons">
+          <button class="adjust-btn">
+            <i class="icon fas fa-sliders-h"></i>
+          </button>
+          <button class="lock-btn">
+            <i class="icon fas fa-unlock"></i>
+          </button>
+        </div>
+        <div class="color-settings">
+          <span class="close-btn">x</span>
+          <div class="hue-block settings-block">
+            <label for="hue">Hue</label>
+            <input
+              type="range"
+              name="hue"
+              id="hue"
+              min="0"
+              max="360"
+              step="1"
+            />
+          </div>
+          <div class="bright-block settings-block">
+            <label for="bright">Brightness</label>
+            <input
+              type="range"
+              name="bright"
+              id="bright"
+              min="0"
+              max="1"
+              step="0.01"
+            />
+          </div>
+          <div class="satur-block settings-block">
+            <label for="satur">Saturation</label>
+            <input
+              type="range"
+              name="satur"
+              id="satur"
+              min="0"
+              max="1"
+              step="0.01"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="color">
+        <h2 class="color-name">Hex</h2>
+        <div class="control-buttons">
+          <button class="adjust-btn">
+            <i class="icon fas fa-sliders-h"></i>
+          </button>
+          <button class="lock-btn">
+            <i class="icon fas fa-unlock"></i>
+          </button>
+        </div>
+        <div class="color-settings">
+          <span class="close-btn">x</span>
+          <div class="hue-block settings-block">
+            <label for="hue">Hue</label>
+            <input
+              type="range"
+              name="hue"
+              id="hue"
+              min="0"
+              max="360"
+              step="1"
+            />
+          </div>
+          <div class="bright-block settings-block">
+            <label for="bright">Brightness</label>
+            <input
+              type="range"
+              name="bright"
+              id="bright"
+              min="0"
+              max="1"
+              step="0.01"
+            />
+          </div>
+          <div class="satur-block settings-block">
+            <label for="satur">Saturation</label>
+            <input
+              type="range"
+              name="satur"
+              id="satur"
+              min="0"
+              max="1"
+              step="0.01"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="color">
+        <h2 class="color-name">Hex</h2>
+        <div class="control-buttons">
+          <button class="adjust-btn">
+            <i class="icon fas fa-sliders-h"></i>
+          </button>
+          <button class="lock-btn">
+            <i class="icon fas fa-unlock"></i>
+          </button>
+        </div>
+        <div class="color-settings">
+          <span class="close-btn">x</span>
+          <div class="hue-block settings-block">
+            <label for="hue">Hue</label>
+            <input
+              type="range"
+              name="hue"
+              id="hue"
+              min="0"
+              max="360"
+              step="1"
+            />
+          </div>
+          <div class="bright-block settings-block">
+            <label for="bright">Brightness</label>
+            <input
+              type="range"
+              name="bright"
+              id="bright"
+              min="0"
+              max="1"
+              step="0.01"
+            />
+          </div>
+          <div class="satur-block settings-block">
+            <label for="satur">Saturation</label>
+            <input
+              type="range"
+              name="satur"
+              id="satur"
+              min="0"
+              max="1"
+              step="0.01"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section control panel -->
+
+    <section class="control-pannel">
+      <div class="pannel-box library-box">
+        <button class="pannel-btn library-btn">
+          <i class="icon far fa-list-alt"></i>
+        </button>
+        <h3 class="pannel-name">Library</h3>
+      </div>
+      <div class="pannel-box generate-box">
+        <button class="pannel-btn generate-btn">
+          <i class="icon fas fa-sync-alt"></i>
+        </button>
+        <h3 class="pannel-name">Generate</h3>
+      </div>
+      <div class="pannel-box save-box">
+        <button class="pannel-btn save-btn">
+          <i class="icon far fa-save"></i>
+        </button>
+        <h3 class="pannel-name">Save</h3>
+      </div>
+    </section>
+
+    <!-- popup clipboard -->
+
+    <div class="copy-popup">
+      <div class="popup-box">
+        <h3 class="copy-text">Copied to clipboard!</h3>
+        <span class="thumb">&#128077;</span>
+      </div>
+    </div>
+
+    <!-- popup save -->
+
+    <div class="save-popup">
+      <div class="popup-box">
+        <button class="close-btn">x</button>
+        <h3 class="save-text">Name your palette</h3>
+        <input type="text" name="palette" maxlength="10" />
+        <button class="save-btn" type="submit">Save</button>
+      </div>
+    </div>
+
+    <!-- popup library -->
+
+    <div class="library-popup">
+      <div class="popup-box">
+        <button class="close-btn">x</button>
+        <h3 class="library-text">Pick your palette</h3>
+        <div class="palette"></div>
+      </div>
+    </div>
+  </body>
+</html>
