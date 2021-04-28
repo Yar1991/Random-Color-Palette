@@ -30,7 +30,7 @@ const paletteContainer = document.querySelector(".palette");
 
 // *** events *** //
 
-window.addEventListener("DOMContentLoaded", () => {
+window.addEventListener("load", () => {
   generateColors();
   getFromLocal();
 });
